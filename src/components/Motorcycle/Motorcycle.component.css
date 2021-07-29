@@ -1,0 +1,330 @@
+.bike-banner-show {
+  position: relative;
+}
+.bike-banner-show img {
+  width: 100%;
+}
+.bike-banner-show .bottom-left {
+  position: absolute;
+  bottom: 8%;
+  left: 0px;
+  font-weight: 600;
+  font-size: 28px;
+  color: white;
+  background: black;
+    opacity: 80%;
+    padding: 20px;
+}
+
+.bike-banner-show .bike-banner-details {
+  color: white;
+  background: black;
+  padding: 40px;
+
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+
+.bike-banner-show .bike-banner-details span {
+  margin: 0px 50px;
+}
+.bike-banner-show .bike-banner-details button {
+  margin: 0px 50px;
+}
+
+.bike-banner-details span {
+  font-size: 45px;
+  font-weight: 700;
+  transition: color 1s;
+}
+.bike-banner-details span:hover {
+  color: red;
+  cursor: default;
+}
+
+.bike-banner-details button {
+  border: none;
+  color: white;
+  background: red;
+  padding: 0px 20px;
+  font-weight: 600;
+  font-size: 18px;
+
+  transition: background-color 0.5s ease-out;
+}
+.bike-banner-details button:hover {
+  background-color: white;
+  color: black;
+  transition: color 0.5s ease-in-out;
+}
+
+.bike-show img {
+  width: 100%;
+}
+
+.bike-show-details {
+  padding: 20px 100px;
+}
+
+.bike-show-details h1 {
+  font-weight: 700;
+  font-size: 40px;
+  color: rgb(44, 44, 44);
+}
+.bike-show-details p {
+  font-size: 18px;
+  font-weight: 400;
+  color: rgb(94, 92, 92);
+}
+
+.bike-show-details span {
+  font-size: 22px;
+  font-weight: 800;
+  text-transform: uppercase;
+}
+
+.bike-options {
+  margin: 10px 80px;
+  text-align: left;
+  margin-bottom: 30px;
+}
+
+.bike-options .options {
+  background: rgba(218, 216, 216, 0.459);
+}
+.bike-options h2 {
+  font-weight: 600;
+  font-size: 30px;
+  text-transform: uppercase;
+  font-style: oblique;
+  padding: 10px 30px;
+}
+
+.bike-options img {
+  width: 100%;
+  padding: 0px 30px 30px 30px;
+}
+
+.brochure {
+  background: rgb(17, 17, 17);
+  text-align: center;
+}
+
+.brochure span {
+  font-size: 25px;
+  font-weight: 600;
+  color: white;
+}
+.brochure button {
+  border: none;
+  background: red;
+  padding: 10px;
+  color: white;
+  font-weight: 600;
+}
+
+.brochure span {
+  margin: 30px 40px;
+}
+
+.brochure button {
+  margin: 30px 40px;
+}
+
+.specifications {
+  overflow: hidden;
+}
+
+.specifications .strike {
+  margin: 10px 80px;
+  text-transform: uppercase;
+  text-align: left;
+}
+
+.specifications .strike span h1 {
+  font-weight: 600;
+  border: none;
+  padding: 10px 20px;
+
+  background: black;
+  color: white;
+}
+
+.bike-options .options {
+  box-shadow: 0px 6px 9px 0px rgba(43, 42, 42, 0.514);
+}
+
+.features .strike {
+  margin: 10px 80px;
+  text-transform: uppercase;
+  text-align: right;
+}
+
+.features .strike span h1 {
+  font-weight: 600;
+  border: none;
+  padding: 10px 20px;
+
+  background: black;
+  color: white;
+}
+
+.bloc-tabs {
+  display: flex;
+}
+
+.bloc-tabs button {
+  font-weight: 600;
+  font-size: 18px;
+}
+.tabs {
+  padding: 10px;
+  text-align: center;
+  width: 50%;
+  background: white;
+  cursor: pointer;
+  border: hidden;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.274);
+  box-sizing: content-box;
+  position: relative;
+  outline: none;
+}
+.tabs:not(:last-child) {
+  border-right: 1px solid rgba(0, 0, 0, 0.274);
+}
+
+.active-tabs {
+  background: white;
+  border-bottom: 1px solid transparent;
+}
+
+.active-tabs::before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: calc(100% + 2px);
+  height: 3px;
+  background: red;
+}
+
+.content img {
+  box-shadow: 5px 6px 9px 0px rgba(43, 42, 42, 0.514);
+}
+
+.content-tabs {
+  flex-grow: 1;
+}
+.content {
+  background: white;
+  padding: 20px;
+  width: 100%;
+  height: 100%;
+  display: none;
+}
+.content h1 {
+  padding: 0px 0 5px 0px;
+  font-weight: 600;
+}
+.content hr {
+  width: 100%;
+  height: 2px;
+  background: rgb(255, 5, 5);
+  margin-bottom: 5px;
+}
+.content p {
+  width: 100%;
+  height: 100%;
+}
+.active-content {
+  display: block;
+}
+
+@media (max-width: 768px) {
+  .bike-banner-show .bike-banner-details span {
+    margin: 10px 0px;
+    width: 100%;
+    display: block;
+    font-size: 25px;
+  }
+
+  .bike-banner-show .bike-banner-details {
+    padding: 0px;
+    display: grid;
+    padding-bottom: 20px;
+  }
+  .bike-banner-show .bottom-left {
+    font-weight: 600;
+    font-size: 15px;
+    color: white;
+    background: black;
+    padding: 15px;
+  }
+
+  .bike-show-details {
+    padding: 10px 30px;
+  }
+
+  .bike-show-details h1 {
+    font-weight: 600;
+    font-size: 25px;
+  }
+  .bike-options {
+    margin: 10px 20px;
+    text-align: left;
+    margin-bottom: 30px;
+  }
+  .bike-options .options {
+    margin-bottom: 20px;
+  }
+
+  .brochure {
+    padding-top: 20px;
+  }
+
+  .brochure span {
+    font-size: 18px;
+  }
+
+  .brochure button {
+    margin: 10px 0px;
+  }
+
+  .specifications .strike {
+    margin: 10px;
+  }
+
+  .specifications .strike span h1 {
+    padding: 10px;
+    font-size: 25px;
+  }
+
+  .features .strike {
+    margin: 10px;
+  }
+
+  .features .strike span h1 {
+    font-size: 25px;
+    padding: 10px 15px;
+  }
+
+
+
+.bloc-tabs button {
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.tabs {
+  padding: 5px;
+
+}
+
+.content img {
+width: 100%;
+}
+
+}

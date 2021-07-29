@@ -1,0 +1,19 @@
+.product-container{
+margin:20px 80px;
+}
+
+.product-container .box{
+    border: 1px solid;
+    border: none;
+    box-shadow: 1px 1px 4px 0px grey;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.product-container .box{
+  text-align: center;
+}
+
+.product-container img{
+    width: 250px;
+}

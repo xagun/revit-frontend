@@ -1,0 +1,115 @@
+.admin-landing img{
+    width: 100%;
+    padding: 2% 25%;
+}
+
+.admin-header{}
+
+.warn-p{
+    color: red;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.admin-navBar a{
+    padding: 20px;
+    color: white;
+    text-decoration: none;
+    margin: 0px 10px;
+    font-weight: 600;
+
+}
+.admin-navBar a:hover{
+
+    color: white;
+background: black;
+}
+
+
+
+
+.admin-navBar{
+  
+    display: flex;
+    background:red;
+ 
+}
+
+
+
+
+.content-detail .contents .add-btn{
+    color: white;
+font-weight: 600;
+text-decoration: none;
+background: red;
+border: none;
+padding: 10px;
+margin: 10px 0px;
+}
+
+.content-detail table button{
+    margin: 0px 5px;
+}
+
+
+
+
+/* products form */
+
+.content-detail .contents input{
+    margin: 10px 0px;
+}
+
+
+/* view content of data */
+
+.content-detail{
+    margin: 40px 80px;
+}
+.content-detail h1{
+    text-align: center;
+    font-weight: 600;
+}
+
+.content-detail .contents h4{
+    font-weight: 600;
+    
+}
+
+.content-detail hr{
+    border: 1px solid grey;
+}
+
+
+.content-detail .contents table{
+    text-align: center;
+
+}
+
+.content-detail .contents table img{
+    width: 300px;
+    height: auto;
+}
+
+.content-detail .contents table th{
+    font-weight: 600;
+    font-size: 20px;
+}
+.content-detail .contents table td{
+    font-weight: 500;
+}
+
+.content-detail .contents img{
+    width: 250px;
+    height: 250px;
+}
+
+
+
+@media (max-width:768px) {
+    .content-detail{
+        margin: 20px;
+    }
+    
+}

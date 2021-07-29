@@ -1,0 +1,24 @@
+.slider-detail .image img{
+    width: 100%;
+    
+}
+
+.slider-detail .image{
+    height: 500px;
+    overflow: hidden;
+}
+
+.slider-detail .detail {
+margin: 20px 100px;
+}
+
+.slider-detail .detail h1{
+    font-weight: 900;
+    font-size: 40px;
+}
+
+.slider-detail .detail p{
+    font-weight: 500;
+    font-size: 20px;
+    width: 70%;
+}

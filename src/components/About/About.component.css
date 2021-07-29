@@ -1,0 +1,48 @@
+.about-container{
+margin: 10px 80px;
+}
+
+.about-container h1{
+    text-align: center;
+    padding: 10px;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+
+.about-container .about-details{
+
+    color: rgb(39, 38, 38);
+}
+
+.about-details p{
+    font-weight: 500;
+    font-size: 18px;
+    padding: 10px 60px;
+  
+}
+
+.about-container img{
+    padding: 50px 200px;
+    width: 100%;
+}
+
+fieldset {
+    border: 1px solid #000;
+}
+
+@media (max-width:768px) {
+
+    .about-container{
+margin: 10px 0px;
+}
+.about-container h1{
+    padding: 0px;
+   font-size:25px;
+}
+.about-details p{
+    font-size: 16px;
+    padding: 0px 30px;
+  
+}
+}
